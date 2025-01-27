@@ -4,7 +4,7 @@ In the era of data-driven decision-making, effective data governance is essentia
 
 This comprehensive course focuses on leveraging Google Cloud Platform (GCP) to establish, manage, and maintain data governance frameworks, ensuring your organization meets regulatory requirements and maximizes the value of its data assets.
 
-[Course Planner](https://docs.google.com/spreadsheets/d/e/2PACX-1vSm6WlqlLlRwSG9n706MuuaYH6GSnQPnVasYd8IgTvwD85pXxmbKEQaOWQu1fSQQK-mTXwt0nOUdDor/pubhtml?gid=0&single=true)
+[Course Planner](https://docs.google.com/spreadsheets/d/e/2PACX-1vTVPmw4i5VYmyA3iueUhUCjn5G7P5ngy1zx-2cUlHm8nyoVF4xjt2RZcVLlIJzRDKHXPXLR1w6SCbrx/pubhtml?gid=0&single=true)
 
 # Naveen Pn (𝐂𝐨𝐫𝐩𝐨𝐫𝐚𝐭𝐞 𝐓𝐫𝐚𝐢𝐧𝐞𝐫) 
 
