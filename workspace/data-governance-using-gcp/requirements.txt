@@ -1,1 +1,17 @@
-google-cloud-datacatalog
+# Apache Spark
+pyspark==3.2.4
+
+# Google Cloud Storage
+#google-cloud-storage==2.17.0
+
+# Google Big Query
+#google-cloud-bigquery==3.25.0
+
+# Dataflow
+apache-beam[gcp]
+
+# Pub/Sub
+#google-cloud-pubsub
+
+# Data catalog
+#google-cloud-datacatalog
