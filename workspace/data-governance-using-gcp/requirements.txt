@@ -1,8 +1,8 @@
 # Apache Spark
-pyspark==3.2.4
+#pyspark==3.2.4
 
 # Google Cloud Storage
-#google-cloud-storage==2.17.0
+google-cloud-storage==2.17.0
 
 # Google Big Query
 #google-cloud-bigquery==3.25.0

@@ -7,5 +7,5 @@ ID,Name,Email,Phone,Date,State,City
 6,Michael Lee,michael.lee@example.com,,2023-12-30,FL,Miami
 7,Laura Kim,,abcdefg123,2025-01-15,TX,Houston
 8,Sophia Brown,sophia.brownexample.com,(555) 456-7890,2025-02-01,NY,New York
-9,,mark.jones@example.com,(555) 456-7890,2023-11-20,,Jacksonville
+9,    ,mark.jones@example.com,(555) 456-7890,2023-11-20,,Jacksonville
 10,Chris Green,chris.green@example.com,(555) 456-7890,,NY,

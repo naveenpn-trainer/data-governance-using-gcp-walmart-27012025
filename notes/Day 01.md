@@ -72,8 +72,8 @@ These layers focus on extracting information from the data (Decision making, Pre
 
 Two main challenges w.r.t to Big Data
 
-1. Storage : Distributed Storage System
-2. Processing : MPP (Massive Parallel Processing Framework)
+1. **Storage** : Distributed Storage System
+2. **Processing** : MPP (Massive Parallel Processing Framework)
 
 ### Hadoop 2.x (Distributed Storage and Processing Framework)
 
@@ -87,7 +87,7 @@ Hadoop consists of three main components
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHAqM09cRIkKK6mxQcnkusBnpnPRRjicwKthEddsDwSjlddb28kbtYrGrApZhK350lmuf6vZfWqkytl4YAfQHRGf5apOpaXaDogul2pGRKIgi4HyDkMeGZOuUMrfv4GgNmXK8RtRnRrdk9TlCEobNx21Xt?key=Lcjgu0sLjm8U8i3A_14gRg)
 
-### What is Apache Spark
+### What is Apache Spark (Distributed Processing Framework)
 
 > Apache Spark is an <mark>in-memory cluster computing framework</mark> designed to handle a wide range of big data workloads.
 
@@ -96,6 +96,8 @@ Hadoop consists of three main components
 3. Real-time Streaming
 4. ML
 5. Graph Computation
+
+* Apache Spark is natively written using **Scala ** programming
 
 ### PySpark
 
@@ -125,6 +127,20 @@ In any spark application you perform three steps
 3. Write the result to different destination systems
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcf44tDRxxUEIF3V9UH2SKvPJRhvk98uY5sOtdBLjmD2Jt3lrXsj802bGlVz7lG4HiDScEumNvTdipDRZBZAdkjZPHvYsbN88sHrswx7WKD71eFufdnYW_uvZJZICgE6qvTw47t_blu-Zpe_S4TSfTGadI?key=_he-T4Jq934AhrSZa-Be-g)
+
+
+
+## What is Spark SQL
+
+> Spark SQL is one of the module in the Spark ecosystem to perform structured and semi-structured (JSON, XML) analysis
+
+## What is Spark DataFrame
+
+> A DataFrame is a distributed collection of data organized into named columns.
+
+* Conceptually we can visualize DF as an in-memory table
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfL30k9twmwk-jfekL6AMvIKeQBiJ5OKPuOv3cpqaAsuOmoje5esme21Eu6efGScQf324QmoZEki_zcP8d7NLGqXlxZikw6n2bekjjgJA3ZgC4gCX_0_8keMz6spnV0Fr0CzZzJZXdqyYXNMmTptNMavbjT?key=yGW25KMloT80Lch6YWjT9A)
 
 
 
