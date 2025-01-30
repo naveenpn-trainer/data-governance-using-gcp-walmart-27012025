@@ -2,17 +2,21 @@ from google.cloud import dlp_v2
 import json
 
 
+
 def load_and_fill_template_config(file_path, replacements):
-    with open(file_path, "r") as file:
-        config = json.load(file)
-    # Replace placeholders in the config
-    config_str = json.dumps(config)
-    for key, value in replacements.items():
-        config_str = config_str.replace(f"{{{{{key}}}}}", value)
 
-    print(f"DEBUG: After replacements, config string: {config_str}")
+    config_str = '''
+    {
+  "inspect_config": {
+    "info_types": [{"name": "EMAIL_ADDRESS"}, {"name": "PHONE_NUMBER"}],
+    "min_likelihood": "POSSIBLE",
+    "include_quote": true
+  },
+  "display_name": "EMAIL_PHONE_INSPECT",
+  "description": "Template for detecting EMAIL_ADDRESS, PHONE_NUMBER"
+}
+    '''
     return json.loads(config_str)
-
 
 def create_dlp_job_template(project_id, template_id, inspect_template_config):
     dlp = dlp_v2.DlpServiceClient()
