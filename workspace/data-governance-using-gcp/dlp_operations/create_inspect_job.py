@@ -21,7 +21,7 @@ def create_dlp_inspect_job_with_template(project_id, inspect_job_config):
     dlp = dlp_v2.DlpServiceClient()
 
     # Define the parent project location
-    parent = f"projects/{project_id}/locations/global"
+    parent = f"projects/{project_id}/locations/us-east1"
 
     # Create the DLP job
     response = dlp.create_dlp_job(parent=parent, inspect_job=inspect_job_config)
@@ -58,12 +58,12 @@ def poll_for_job_completion(job_name):
 # Usage: Load inspect job configuration, fill placeholders, and create the inspect job
 if __name__ == "__main__":
     CONFIG_FILE = "inspect_job_config.json"  # Path to the JSON file
-    PROJECT_ID = "upgradlabs-1736758861064"
-    GCS_INPUT_URI = "gs://data_data_governance_001/sample_dataset.dat"
+    PROJECT_ID = "upgradlabs-1735976404499"
+    GCS_INPUT_URI = "gs://walmart_data_governance_19121985/sample_dataset.dat"
     RESULTS_DATASET_ID = "dlp_results"
     RESULTS_TABLE_ID = "testtable"
-    TEMPLATE_ID = "3763771487318451314"
-    TEMPLATE_NAME = f"projects/{PROJECT_ID}/locations/global/inspectTemplates/{TEMPLATE_ID}"
+    TEMPLATE_ID = "3260100008070450842"
+    TEMPLATE_NAME = f"projects/{PROJECT_ID}/locations/us-east1/inspectTemplates/{TEMPLATE_ID}"
 
     # Prepare replacements for placeholders
     replacements = {
