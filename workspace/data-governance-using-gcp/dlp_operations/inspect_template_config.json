@@ -1,0 +1,9 @@
+{
+  "inspect_config": {
+    "info_types": {{INFO_TYPES}},
+    "min_likelihood": "{{MIN_LIKELIHOOD}}",
+    "include_quote": {{INCLUDE_QUOTE}}
+  },
+  "display_name": "{{DISPLAY_NAME}}",
+  "description": "{{DESCRIPTION}}"
+}

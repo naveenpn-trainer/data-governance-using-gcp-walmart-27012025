@@ -1,0 +1,23 @@
+{
+  "storage_config": {
+    "cloud_storage_options": {
+      "file_set": {
+        "url": "{{GCS_INPUT_URI}}"
+      }
+    }
+  },
+  "inspect_template_name": "{{TEMPLATE_NAME}}",
+  "actions": [
+    {
+      "save_findings": {
+        "output_config": {
+          "table": {
+            "project_id": "{{PROJECT_ID}}",
+            "dataset_id": "{{RESULTS_DATASET_ID}}",
+            "table_id": "{{RESULTS_TABLE_ID}}"
+          }
+        }
+      }
+    }
+  ]
+}
